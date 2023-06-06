@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+.form__image--container {
+  background: no-repeat url(assets/leaf.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  height: 100vh;
+}
+.aside__title {
+  color: #fff;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin-top: 10rem;
+  background-color: rgba(0, 0, 0, 0.747);
+}
+
+.odin-picture {
+  width: 75px;
+}
+
+footer {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  text-align: center;
+}
+
+footer > span {
+  text-decoration: underline;
+}
+
+.form__container {
+  width: 60vw;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.form__header {
+  width: 90%;
+  padding-left: 3vw;
+}
+.form__title {
+  width: 100%;
+}
+
+.hero__emphasis-text {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.input__container {
+  box-shadow: 0 10px 10px -8px rgb(22, 22, 22);
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 3vw;
+}
+
+.input {
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%;
+}
+
+.button__container {
+  padding-left: 3vw;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+button {
+  background-color: #596d48;
+  color: white;
+  padding: 12px 32px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+.accountMade {
+  padding-left: 3vw;
+}
+
+input:focus {
+  border-color: lightblue;
+  box-shadow: 0 10px 10px -8px rgb(22, 22, 22);
+}
